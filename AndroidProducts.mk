@@ -1,4 +1,4 @@
-#
+j#
 # Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,3 +14,8 @@
 # limitations under the License.
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_nx569j.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_nx569j-user \
+    lineage_nx569j-userdebug \
+    lineage_nx569j-eng
